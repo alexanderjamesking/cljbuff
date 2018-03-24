@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package ajk;
+
+option java_package = "ajk";
+option java_outer_classname = "Alex";
+
+message Int32Only {
+  int32 someint = 1;
+  string somestring = 2;
+}
